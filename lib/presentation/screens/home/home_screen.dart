@@ -1,4 +1,5 @@
 import 'package:d_widget_app/config/menu/menu_items.dart';
+import 'package:d_widget_app/presentation/screens/buttons/buttons_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -49,7 +50,12 @@ class _CustomListTitle extends StatelessWidget {
         color: colorPrimary,
       ),
       subtitle: Text(menuItem.subTitle),
-      onTap: () {},
+      onTap: () {
+        // Navigator.of(context).push(
+        //   MaterialPageRoute(builder: (context) => ButtonsScreen()),
+        // );
+        Navigator.pushNamed(context, menuItem.link);
+      },
     );
   }
 }
