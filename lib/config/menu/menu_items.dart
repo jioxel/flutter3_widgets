@@ -13,7 +13,7 @@ class MenuItems {
       required this.icon});
 }
 
-const appMenuItem = <MenuItems>[
+const appMenuItems = <MenuItems>[
   MenuItems(
       title: 'Buttons',
       subTitle: 'Some buttons',
