@@ -1,6 +1,4 @@
 import 'package:d_widget_app/config/menu/menu_items.dart';
-import 'package:d_widget_app/presentation/screens/buttons/buttons_screen.dart';
-import 'package:d_widget_app/presentation/screens/cards/cards_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
