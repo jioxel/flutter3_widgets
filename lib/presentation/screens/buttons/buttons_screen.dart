@@ -65,7 +65,7 @@ class _ButtonsView extends StatelessWidget {
                   backgroundColor: MaterialStatePropertyAll(color),
                   iconColor: const MaterialStatePropertyAll(Colors.white)),
             ),
-            CustomButton()
+            const CustomButton()
           ],
         ),
       ),
@@ -85,8 +85,8 @@ class CustomButton extends StatelessWidget {
         color: colors.primaryColor,
         child: InkWell(
           onTap: () {},
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Text(
               'Hola mundo',
               style: TextStyle(color: Colors.white),
