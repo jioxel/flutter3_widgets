@@ -25,15 +25,15 @@ const appMenuItems = <MenuItems>[
       link: '/cards',
       icon: Icons.credit_card),
   MenuItems(
-      title: 'Cards',
-      subTitle: 'a container styled',
-      link: '/cards',
-      icon: Icons.credit_card),
+      title: 'ProgressIndicator',
+      subTitle: 'Generics and controller',
+      link: '/progress',
+      icon: Icons.refresh_rounded),
   MenuItems(
-      title: 'Cards',
-      subTitle: 'a container styled',
-      link: '/cards',
-      icon: Icons.credit_card),
+      title: 'Snackbar',
+      subTitle: 'Snackbar',
+      link: '/snackbar',
+      icon: Icons.info_outline),
   MenuItems(
       title: 'Cards',
       subTitle: 'a container styled',
