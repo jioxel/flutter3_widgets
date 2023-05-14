@@ -24,4 +24,34 @@ const appMenuItems = <MenuItems>[
       subTitle: 'a container styled',
       link: '/cards',
       icon: Icons.credit_card),
+  MenuItems(
+      title: 'Cards',
+      subTitle: 'a container styled',
+      link: '/cards',
+      icon: Icons.credit_card),
+  MenuItems(
+      title: 'Cards',
+      subTitle: 'a container styled',
+      link: '/cards',
+      icon: Icons.credit_card),
+  MenuItems(
+      title: 'Cards',
+      subTitle: 'a container styled',
+      link: '/cards',
+      icon: Icons.credit_card),
+  MenuItems(
+      title: 'Cards',
+      subTitle: 'a container styled',
+      link: '/cards',
+      icon: Icons.credit_card),
+  MenuItems(
+      title: 'Cards',
+      subTitle: 'a container styled',
+      link: '/cards',
+      icon: Icons.credit_card),
+  MenuItems(
+      title: 'Cards',
+      subTitle: 'a container styled',
+      link: '/cards',
+      icon: Icons.credit_card),
 ];
