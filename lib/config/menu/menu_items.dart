@@ -40,10 +40,10 @@ const appMenuItems = <MenuItems>[
       link: '/animated',
       icon: Icons.animation),
   MenuItems(
-      title: 'Cards',
-      subTitle: 'a container styled',
-      link: '/cards',
-      icon: Icons.credit_card),
+      title: 'Ui Controlls ',
+      subTitle: 'controlled ui',
+      link: '/ui-controls',
+      icon: Icons.check_box_outlined),
   MenuItems(
       title: 'Cards',
       subTitle: 'a container styled',
