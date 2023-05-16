@@ -1,4 +1,5 @@
 import 'package:d_widget_app/config/menu/menu_items.dart';
+import 'package:d_widget_app/presentation/widgets/side_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -8,9 +9,14 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final scaffoldKey = GlobalKey<ScaffoldState>();
     return Scaffold(
+      key: scaffoldKey,
       appBar: AppBar(title: Text('Flutter + Materia UI')),
       body: _HomeView(),
+      drawer: SideMenu(
+        scaffoldKey: scaffoldKey,
+      ),
     );
   }
 }

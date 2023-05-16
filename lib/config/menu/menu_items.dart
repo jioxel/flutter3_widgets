@@ -15,6 +15,11 @@ class MenuItems {
 
 const appMenuItems = <MenuItems>[
   MenuItems(
+      title: 'Counter',
+      subTitle: 'Counter screen use Riverpot',
+      link: '/counter',
+      icon: Icons.add),
+  MenuItems(
       title: 'Buttons',
       subTitle: 'Some buttons',
       link: '/buttons',
@@ -55,8 +60,8 @@ const appMenuItems = <MenuItems>[
       link: '/tutorial',
       icon: Icons.tungsten),
   MenuItems(
-      title: 'Cards',
-      subTitle: 'a container styled',
-      link: '/cards',
-      icon: Icons.credit_card),
+      title: 'Infinity Scroll and Pull',
+      subTitle: 'You could see a infinity scroll pages',
+      link: '/infinityScroll',
+      icon: Icons.list_alt_rounded),
 ];
