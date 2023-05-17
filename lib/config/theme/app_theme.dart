@@ -22,8 +22,12 @@ class AppTheme {
             'Solected color must be less or equal than ${colorList.length - 1}');
 
   ThemeData getTheme() => ThemeData(
-      useMaterial3: true,
-      brightness: isDarkmode ? Brightness.dark : Brightness.light,
-      colorSchemeSeed: colorList[selectedColor],
-      appBarTheme: const AppBarTheme(centerTitle: true));
+        useMaterial3: true,
+        brightness: isDarkmode ? Brightness.dark : Brightness.light,
+        colorSchemeSeed: colorList[selectedColor],
+        appBarTheme: const AppBarTheme(centerTitle: true),
+      );
+  AppTheme copyWith({int? selectedColor, bool? isDarkmode}) => AppTheme(
+      selectedColor: selectedColor ?? this.selectedColor,
+      isDarkmode: isDarkmode ?? this.isDarkmode);
 }

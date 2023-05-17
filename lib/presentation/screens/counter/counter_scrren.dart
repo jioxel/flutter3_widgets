@@ -10,7 +10,8 @@ class CounterScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final int clickCounter = ref.watch(counterProvider);
-    final bool isDarkMode = ref.watch<bool>(isDarkModeProvider);
+    // final bool isDarkMode = ref.watch<bool>(isDarkModeProvider);
+    final bool isDarkMode = ref.watch(themeNotifierProvider).isDarkmode;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Counter Scren use Riverpot'),
@@ -19,7 +20,7 @@ class CounterScreen extends ConsumerWidget {
             padding: const EdgeInsets.all(8.0),
             child: IconButton(
               onPressed: () {
-                ref.read(isDarkModeProvider.notifier).update((state) => !state);
+                ref.read(themeNotifierProvider.notifier).toggleDarkmode();
               },
               icon: isDarkMode
                   ? Icon(Icons.dark_mode_outlined)
