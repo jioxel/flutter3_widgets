@@ -60,8 +60,8 @@ const appMenuItems = <MenuItems>[
       link: '/tutorial',
       icon: Icons.tungsten),
   MenuItems(
-      title: 'Infinity Scroll and Pull',
-      subTitle: 'You could see a infinity scroll pages',
-      link: '/infinityScroll',
-      icon: Icons.list_alt_rounded),
+      title: 'Theme screen',
+      subTitle: 'Selec the theme like most',
+      link: '/theme_screen',
+      icon: Icons.theater_comedy),
 ];
